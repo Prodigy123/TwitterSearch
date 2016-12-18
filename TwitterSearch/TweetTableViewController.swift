@@ -109,7 +109,7 @@ class TweetTableViewController: UITableViewController,UITextFieldDelegate {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "ShowPeopleCount"{
-            if let peopleTVC = segue.destination as? PeopleTableViewController{
+            if let peopleTVC = segue.destination as? CountTableViewController{
                     peopleTVC.mention = searchText
                     peopleTVC.managedObjectContext = manageObjectContext
             }

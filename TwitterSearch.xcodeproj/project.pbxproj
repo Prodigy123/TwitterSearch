@@ -13,7 +13,7 @@
 		5E02B0B01DEF0512009DE56D /* TwitterPeople+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E02B0AC1DEF0512009DE56D /* TwitterPeople+CoreDataClass.swift */; };
 		5E02B0B11DEF0512009DE56D /* TwitterPeople+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E02B0AD1DEF0512009DE56D /* TwitterPeople+CoreDataProperties.swift */; };
 		5E02B0B31DEFA116009DE56D /* CoreDataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E02B0B21DEFA116009DE56D /* CoreDataTableViewController.swift */; };
-		5E02B0B51DEFAA5E009DE56D /* PeopleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E02B0B41DEFAA5E009DE56D /* PeopleTableViewController.swift */; };
+		5E02B0B51DEFAA5E009DE56D /* CountTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E02B0B41DEFAA5E009DE56D /* CountTableViewController.swift */; };
 		5E02B0B61DF00347009DE56D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E02B0B81DF00347009DE56D /* Main.storyboard */; };
 		5E7E07191DEBC4410095CCC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7E07181DEBC4410095CCC3 /* AppDelegate.swift */; };
 		5E7E07201DEBC4410095CCC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E7E071F1DEBC4410095CCC3 /* Assets.xcassets */; };
@@ -45,7 +45,7 @@
 		5E02B0AC1DEF0512009DE56D /* TwitterPeople+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TwitterPeople+CoreDataClass.swift"; sourceTree = "<group>"; };
 		5E02B0AD1DEF0512009DE56D /* TwitterPeople+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TwitterPeople+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		5E02B0B21DEFA116009DE56D /* CoreDataTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataTableViewController.swift; sourceTree = "<group>"; };
-		5E02B0B41DEFAA5E009DE56D /* PeopleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleTableViewController.swift; sourceTree = "<group>"; };
+		5E02B0B41DEFAA5E009DE56D /* CountTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountTableViewController.swift; sourceTree = "<group>"; };
 		5E02B0B71DF00347009DE56D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5E7E07151DEBC4410095CCC3 /* TwitterSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E7E07181DEBC4410095CCC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -101,7 +101,7 @@
 		5E7E07171DEBC4410095CCC3 /* TwitterSearch */ = {
 			isa = PBXGroup;
 			children = (
-				5E02B0B41DEFAA5E009DE56D /* PeopleTableViewController.swift */,
+				5E02B0B41DEFAA5E009DE56D /* CountTableViewController.swift */,
 				5E02B0B81DF00347009DE56D /* Main.storyboard */,
 				5E02B0B21DEFA116009DE56D /* CoreDataTableViewController.swift */,
 				5E7E07311DEBC9990095CCC3 /* TweetTableViewCell.swift */,
@@ -201,7 +201,7 @@
 				5E7E072C1DEBC4AC0095CCC3 /* TweetTableViewController.swift in Sources */,
 				5E02B0AE1DEF0512009DE56D /* TweetEntity+CoreDataClass.swift in Sources */,
 				5E02B0B01DEF0512009DE56D /* TwitterPeople+CoreDataClass.swift in Sources */,
-				5E02B0B51DEFAA5E009DE56D /* PeopleTableViewController.swift in Sources */,
+				5E02B0B51DEFAA5E009DE56D /* CountTableViewController.swift in Sources */,
 				5E02B0B11DEF0512009DE56D /* TwitterPeople+CoreDataProperties.swift in Sources */,
 				5E7E07321DEBC9990095CCC3 /* TweetTableViewCell.swift in Sources */,
 				5E02B0AF1DEF0512009DE56D /* TweetEntity+CoreDataProperties.swift in Sources */,

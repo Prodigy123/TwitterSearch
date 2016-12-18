@@ -8,7 +8,7 @@
 
 import UIKit
 import CoreData
-class PeopleTableViewController: CoreDataTableViewController {
+class CountTableViewController: CoreDataTableViewController {
     var mention: String?{didSet{updateUI()}}
     var managedObjectContext: NSManagedObjectContext?{didSet{updateUI()}}
     
